@@ -1,0 +1,30 @@
+        table {
+            position: center;
+            border: 1px solid black;
+            border-collapse: collapse;
+            border-bottom: collapse;
+            border-radius: 5px;
+            width: 100%;
+            margin-top: 50px;
+        }
+        
+        tr:nth-child(even) {
+            background-color: aqua;
+        }
+        
+        td {
+            text-align: center;
+            padding: 8px;
+        }
+        
+        .box input[type="text"] {
+            border-radius: 5px;
+            background-color: aliceblue;
+            width: 200px;
+            border-color: powderblue;
+        }
+        
+        .box input[type="text"]:focus {
+            width: 280px;
+            border-color: blue;
+        }
